@@ -17,7 +17,8 @@ There are two endpoints in this API.
 ## @POST /api/url/shortener
 
     Create or returns short url.
-
+    
+2. Redirect to Original website
 ## @GET /:urlCode
 
     Redirects to original url when someone hits short url.
