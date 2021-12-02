@@ -1,6 +1,6 @@
 # Shortener Url
 
-This shortener url API creates short url like bitly.com. Is is sample project how this url shortener works.
+This shortener url API creates short url like bitly.com. It is sample project how this url shortener works.
 It is a Nodejs project with MongoDB.
 Package Used:
 
@@ -17,6 +17,8 @@ There are two endpoints in this API.
 ## @POST /api/url/shortener
 
     Create or returns short url.
+
+2. Redirects to original websites
 
 ## @GET /:urlCode
 
