@@ -1,27 +1,26 @@
-# Shortener Url
+# URL Shortener API
 
-This shortener url API creates short url like bitly.com. It is sample project how this url shortener works.
-It is a Nodejs project with MongoDB.
-Package Used:
+This URL shortener API, developed in Node.js with MongoDB, allows you to create short URLs similar to services like bitly.com. The project utilizes the following packages:
 
-1. mongoose
-2. shortid
-3. valid-url
+1. **mongoose**: MongoDB object modeling tool designed to work in an asynchronous environment.
+2. **shortid**: Library for generating short, unique, and non-sequential IDs.
+3. **valid-url**: Utility to validate URLs.
 
-# Endpoints
+## Endpoints
 
-There are two endpoints in this API.
+### 1. Create Short URL
 
-1. Create Short URL.
+#### @POST /api/url/shortener
 
-## @POST /api/url/shortener
+This endpoint creates or returns a short URL for the provided original URL.
 
-    Create or returns short url.
+### 2. Redirect to Original Website
 
-2. Redirects to original websites
+#### @GET /:urlCode
 
-## @GET /:urlCode
+This endpoint redirects users to the original URL when someone accesses it using the short URL.
 
-    Redirects to original url when someone hits using short url.
+---
 
-<!-- Developed by : Prince @ princelalla24@gmail.com -->
+**Developed by**: Prince
+**Contact**: princelalla24@gmail.com
