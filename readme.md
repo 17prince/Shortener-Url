@@ -22,6 +22,6 @@ There are two endpoints in this API.
 
 ## @GET /:urlCode
 
-    Redirects to original url when someone hits short url.
+    Redirects to original url when someone hits using short url.
 
 <!-- Developed by : Prince @ princelalla24@gmail.com -->
